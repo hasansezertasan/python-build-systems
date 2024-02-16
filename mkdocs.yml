@@ -1,0 +1,50 @@
+site_name: Python Build Systems
+site_description: I'm exploring Python Build Systems and the tools built around them and these are my notes.
+site_url: https://hasansezertasan.github.io/python-build-systems/
+repo_name: hasansezertasan/python-build-systems
+repo_url: https://github.com/hasansezertasan/python-build-systems/
+edit_uri: https://github.com/hasansezertasan/python-build-systems/tree/main/docs
+
+theme:
+  name: material
+  language: en
+  palette:
+    - scheme: default
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - scheme: slate
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.top
+    - navigation.sections
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotate
+
+plugins:
+  - search
+  - blog
+
+nav:
+  - Home: index.md
+  - Basics: basics/index.md
+  - Setuptools: setuptools/index.md
+  - Twine: twine/index.md
+  - Poetry: poetry/index.md
+  - Resources: resources.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/medium
+      link: https://medium.com/@hasansezertasan
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/hasansezertasan/
